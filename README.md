@@ -14,6 +14,8 @@ Guild Wars 1 only runs on Windows, so that'll probably be the most inconvenient 
 - [opencv-python](http://opencv.org/)
 - [pywin32](http://sourceforge.net/projects/pywin32/files/pywin32/)
 - [PyUserInput](https://github.com/SavinaRoja/PyUserInput) `pip install pyuserinput`
+- [pillow] `pip install pillow`
+- [pyscreenshot] `pip install pyscreenshot`
 
 Installation
 ===========

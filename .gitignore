@@ -1,2 +1,4 @@
-output2.jpg
+*.jpg
+!dot.jpg
+*.png
 *.pyc

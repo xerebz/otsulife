@@ -34,7 +34,7 @@ res = cv2.matchTemplate(output,template,cv2.TM_CCOEFF_NORMED)
 threshold = 0.3
 loc = np.where( res >= threshold)
 
-# for pt in zip(*loc[::-1]):
+# for pt in zip(*loc[::-1]): 
 #     cv2.rectangle(img, pt, (pt[0] + w, pt[1] + h), (255,0,0), 2)
 
 targets = zip(*loc[::-1])
